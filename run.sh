@@ -5,7 +5,7 @@ yum install unzip -y
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && unzip ngrok-stable-linux-amd64.zip
 clear
 echo "Katacoda Centos Windows 11 by fb.com/thuong.hai.581"
-read -p "Paste authtoken here (Copy and Right-click to paste): " CRP
+read -p "2SWJwctKVoqZm93HmsOxdWQ1o3P_2S51jSeNj2FY3aqTwgWhd: " CRP
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp --region eu 30889 &>/dev/null &
 yum install sudo -y
@@ -28,4 +28,4 @@ echo User: Administrator
 echo Password: Thuonghai001
 echo Script by fb.com/thuong.hai.581
 echo Wait 2-4m VM boot up before connect. 
-echo Do not close Katacoda tab. VM expired in 1 hour. [Fer1tx]
+echo Do not close Katacoda tab. VM expired in 24 hour. [Fer1tx]
